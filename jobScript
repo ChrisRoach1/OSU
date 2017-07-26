@@ -1,0 +1,22 @@
+#this code is used to run trim galore using the resources
+#of the marshall cluster computer.
+#variables within the "PBS" are liable to change depending on the job at hand, this 
+#is just a basic outline to refer back to.
+
+
+echo "
+#!/bin/bash 
+#PBS -k o 
+#PBS -l nodes=2:ppn=6,mem=8gb,walltime=1:00:00
+#PBS -N JobName 
+#PBS -j oe 
+
+cd $PBS_0_WORKDIR
+cd 
+
+
+#workflow/commands go here
+
+
+
+" | qsub 
