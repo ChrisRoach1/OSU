@@ -1,7 +1,7 @@
 echo "
 #!/bin/bash 
 #PBS -k o 
-#PBS -l nodes=2:ppn=6,mem=8gb,walltime=1:00:00
+#PBS -l nodes=2:ppn=6,mem=8gb,walltime=1:00:00  #may want to change the walltime for protection
 #PBS -N JobName 
 #PBS -j oe 
 
