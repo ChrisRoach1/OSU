@@ -1,0 +1,19 @@
+Documentation and resources
+
+this is a quick way of keeping track of documentation for software and other items.
+Also any resources of value can go here.
+
+fastq-split - http://enveomics.blogspot.com/2013/09/fastqsplitpl.html
+
+FastQC - https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+FastQC - https://github.com/csf-ngs/fastqc/blob/master/INSTALL.txt
+FastQc - https://pbertinblog.wordpress.com/fastqc-installation/
+
+sratoolkit - https://github.com/ncbi/sra-tools/wiki/HowTo:-Binary-Installation
+
+cutadapt(neededf for trimgalore) - http://cutadapt.readthedocs.io/en/v1.8.2/installation.html
+trimgalore - https://github.com/FelixKrueger/TrimGalore
+trimgalore - http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/trim_galore_User_Guide_v0.3.7.pdf
+
+bowtie - https://cgrlucb.wikispaces.com/Installing+and+Using+Bowtie
+bowtie - http://bowtie-bio.sourceforge.net/manual.shtml
