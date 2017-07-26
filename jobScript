@@ -1,7 +1,5 @@
-#this code is used to run trim galore using the resources
-#of the marshall cluster computer.
-#variables within the "PBS" are liable to change depending on the job at hand, this 
-#is just a basic outline to refer back to.
+#this code is used to run and send jobs to the cluster, variables will change depending on the job.
+#it is just a basic outline to refer back to.
 
 
 echo "
