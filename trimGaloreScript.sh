@@ -10,6 +10,9 @@ cd
 
 
 ./TrimGalore-0.4.3/trim_galore -q 20 -length 0 -phred33 <inputFile>
+#its important to note that this could possibly lead to reads being completely empty that 
+#could cause problems down the line for alignment, may need to trim again and cut out the 
+#empty pairs
 
 
 
