@@ -21,6 +21,7 @@ bowtie - http://bowtie-bio.sourceforge.net/manual.shtml
 samtools - https://gist.github.com/adefelicibus/f6fd06df1b4bb104ceeaccdd7325b856
 samtools - http://seqanswers.com/forums/showthread.php?t=6050
 samtools - http://www.htslib.org/doc/samtools.html
+samtools - http://davetang.org/wiki/tiki-index.php?page=SAMTools
 
 MACS - https://github.com/taoliu/MACS/blob/macs_v1/README.rst
 MACS - https://github.com/taoliu/MACS/blob/master/INSTALL.rst
