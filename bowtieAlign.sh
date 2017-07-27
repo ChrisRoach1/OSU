@@ -14,7 +14,8 @@ cd $PBS_0_WORKDIR
 cd /home/roach89
 
 
-./bowtie-0.12.7/bowtie -t -k 2 -v 2 GRCh38 SRAGATA2_trimmed.fq GATA2.sam
+./bowtie-0.12.7/bowtie -t -k 2 -v 2 <reference genome> <input> -S <output name>
+#the -S is used to specify that the output will be a sam file, which is important
 
 
 
