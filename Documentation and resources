@@ -25,12 +25,14 @@ samtools - http://www.htslib.org/doc/samtools.html
 MACS - https://github.com/taoliu/MACS/blob/macs_v1/README.rst
 MACS - https://github.com/taoliu/MACS/blob/master/INSTALL.rst
 NOTE: MACS runs off of python 2.6 or 2.7, you need to make sure it is installed, 
-alternatively you can use anaconda and switch between python environments to use different versions
-documentation for anaconda: 
-- https://conda.io/docs/py2or3.html#install-a-different-version-of-python
-- https://conda.io/docs/py2or3.html
-- https://conda.io/docs/using/envs.html
+  alternatively you can use anaconda and switch between python environments to use different versions
+  documentation for anaconda: 
+    - https://conda.io/docs/py2or3.html#install-a-different-version-of-python
+    - https://conda.io/docs/py2or3.html
+    - https://conda.io/docs/using/envs.html
 
+HOMER - http://homer.ucsd.edu/homer/
+HOMER - http://homer.ucsd.edu/homer/ngs/quantification.html
 
 
 
