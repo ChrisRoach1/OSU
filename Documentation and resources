@@ -42,7 +42,7 @@ bowtie - http://bowtie-bio.sourceforge.net/manual.shtml
 samtools - https://gist.github.com/adefelicibus/f6fd06df1b4bb104ceeaccdd7325b856
 samtools - http://seqanswers.com/forums/showthread.php?t=6050
 samtools - http://www.htslib.org/doc/samtools.html
-samtools - http://davetang.org/wiki/tiki-index.php?page=SAMTools
+samtools - http://davetang.org/wiki/tiki-index.php?page=SAMTools ***
 
 MACS - https://github.com/taoliu/MACS/blob/macs_v1/README.rst
 MACS - https://github.com/taoliu/MACS/blob/master/INSTALL.rst
@@ -60,7 +60,7 @@ read manipulation - http://seqanswers.com/forums/showthread.php?t=61908
 read manipulation - https://sourceforge.net/p/samtools/mailman/message/26994612/
 read manipulation - https://gist.github.com/davfre/8596159
 read manipulation - http://barcwiki.wi.mit.edu/wiki/SOPs/miningSAMBAM
-read manipulation - http://yulijia.net/en/bioinformatics/2015/09/23/mapping-statistics.html **
+read manipulation - http://yulijia.net/en/bioinformatics/2015/09/23/mapping-statistics.html ***
 
 exons,introns.. - https://www.scientistsolutions.com/forum/dna-pcr-real-time-pcr-sequencing/how-look-exonintron-sequence
 
