@@ -32,7 +32,7 @@ FastQC - https://pbertinblog.wordpress.com/fastqc-installation/
 
 sratoolkit - https://github.com/ncbi/sra-tools/wiki/HowTo:-Binary-Installation
 
-cutadapt(neededf for trimgalore) - http://cutadapt.readthedocs.io/en/v1.8.2/installation.html
+cutadapt(needed for trimgalore) - http://cutadapt.readthedocs.io/en/v1.8.2/installation.html
 trimgalore - https://github.com/FelixKrueger/TrimGalore
 trimgalore - http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/trim_galore_User_Guide_v0.3.7.pdf
 
