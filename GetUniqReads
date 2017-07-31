@@ -1,0 +1,12 @@
+Okay this command was gotten from -> http://seqanswers.com/forums/showthread.php?t=61908
+
+and the command is -> samtools view -q 10 -b aln.bam > aln.uniq.bam
+
+it seemed to work just fine, my output file is smaller than the original file. the "10" could be increased by some,
+it is just a score for quality. Explained below:
+- "Keep in mind that "uniqeness" is not a clear cut variable. Rather is a probability that the position of the read is wrong. 
+  Specifically, p_wrong= 10^(-mapq/10).So for mapq 10 you have p_wrong= 0.1, for mapq 20 p_wrong= 0.01. 
+  In practice I see that most of the reads are either mapq 0 or mapq pretty high (>30) with little in between, 
+  so the exact threshold makes little difference. But this depends of course on your study system."
+  
+  
