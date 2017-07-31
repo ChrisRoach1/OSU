@@ -1,0 +1,6 @@
+website -> https://gsl.hudsonalpha.org/information/software/bam2fastq
+although this tool does not seem to be supported anymore, it worked just fine for me in doing what i wanted.
+It was able to extract all reads that were unmapped and convert into a fastq file for further analysis, etc..
+
+command used -> ./bam2fastq --no-aligned -o <outputFile> <inputFile>
+
