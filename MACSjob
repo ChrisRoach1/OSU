@@ -1,0 +1,14 @@
+https://github.com/taoliu/MACS
+
+used MACS2 for the analysis, macs 1.4 was not working as i wanted it to so i just switched to the newest version.
+
+example of arguments used -> macs2 callpeak -t GATA2.uniq.bam -f BAM -g hs -p 1e-8 -m 3 30 -n GATA2
+
+-t -> File 
+-f -> Format of the file
+-g -> genome size (hs is for the human genome size)
+-p -> p-value of 1e-8
+-m -> mfold 3,30
+-n -> name for files
+
+
