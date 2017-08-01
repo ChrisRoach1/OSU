@@ -12,7 +12,7 @@ cd $PBS_0_WORKDIR
 cd /home/roach89
 
 
-macs14 -t <INPUT> -m 3,30 -g hs -p 1e-8 -f BAM
+macs14 -t <INPUT> -m 3,30 -g hs -p 1e-8 -f BED
 #currently there is no control/input file to be used, but if there were it would go after the input file
 
 
