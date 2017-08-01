@@ -11,4 +11,17 @@ example of arguments used -> macs2 callpeak -t GATA2.uniq.bam -f BAM -g hs -p 1e
 -m -> mfold 3,30
 -n -> name for files
 
+====================================================================================================
+Produced Excel sheet explained:
+
+column 1: chromosome 
+column 2: start position
+column 3: end position
+column 4: length of peak region
+column 5: absolute peak summit position
+column 6: pileup height at peak summit
+column 8: fold enrichment for this peak summit against random poisson distribution with local lamdba.
+
+NOTE: unsure of what column 7 & 9 are for.
+
 
