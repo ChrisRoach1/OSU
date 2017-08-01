@@ -1,0 +1,6 @@
+http://reasoniamhere.com/2013/09/17/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-2/
+http://www.unix.com/shell-programming-and-scripting/31108-writing-file-using-awk.html
+
+awk '{ print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }' gencode.v26.annotation.gtf > testFile.txt
+  -seems to work the best to break file into seperate columns
+  
