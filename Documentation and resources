@@ -73,7 +73,9 @@ python - http://htseq.readthedocs.io/en/release_0.9.1/ ***
 TSS - https://www.biostars.org/p/204934/
 TSS - http://www.ensembl.org/info/website/upload/gff.html
 TSS - https://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/bertone/software/PeakAnnotator_Java_README
-
+TSS - https://pypi.python.org/pypi/gtfparse/0.0.1
+TSS - http://reasoniamhere.com/2013/09/16/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-1/
+TSS - https://www.biostars.org/p/140471/
 ===================================================================================================================
 
 
