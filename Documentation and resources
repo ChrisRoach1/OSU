@@ -55,6 +55,7 @@ NOTE: MACS runs off of python 2.6 or 2.7, you need to make sure it is installed,
 
 HOMER - http://homer.ucsd.edu/homer/
 HOMER - http://homer.ucsd.edu/homer/ngs/quantification.html
+HOMER - http://wiki.bits.vib.be/index.php/Homer
 
 read manipulation - http://seqanswers.com/forums/showthread.php?t=61908
 read manipulation - https://sourceforge.net/p/samtools/mailman/message/26994612/
