@@ -1,0 +1,3 @@
+included in the HOMER software.
+
+command ->  annotatePeaks.pl GATA2v2_peaks.narrowPeak hg38 > testRun.txt 
