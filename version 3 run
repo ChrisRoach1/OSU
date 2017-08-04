@@ -1,0 +1,9 @@
+This was a run that i did that had different parameters then those specified in the original paper, with a few more steps as 
+well.
+
+
+1.) ./bowtie-0.12.7/bowtie -t -q -k 1 -v 1 -m 1 --un FoxA1v3unaligned.fq GRCh38 SRAFoxA1_final.fq -S FoxA1.sam
+2.) ./samtools-1.3.1/samtools view -bS FoxA1.sam > FoxA1v3.bam
+3.) macs2 filterdup -i GATA2v3.sam -f SAM -g hs -p 1e-8 -o <outputFile>
+4.) macs2 callpeak -t GATA2.uniq.bam -f BAM -g hs -p 1e-8 -m 3 30 -n GATA2
+5.) annotatePeaks.pl GATA2v2_peaks.narrowPeak hg38 > testRun.txt 
