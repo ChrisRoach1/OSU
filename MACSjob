@@ -2,7 +2,7 @@ https://github.com/taoliu/MACS
 
 used MACS2 for the analysis, macs 1.4 was not working as i wanted it to so i just switched to the newest version.
 
-filterdup (not required but good) - macs2 filterdup -i GATA2v3.sam -f SAM -g hs -p 1e-8 -o <outputFile>
+filterdup (not required but good to do) - macs2 filterdup -i GATA2v3.sam -f SAM -g hs -p 1e-8 -o <outputFile>
 example of arguments used -> macs2 callpeak -t GATA2.uniq.bam -f BAM -g hs -p 1e-8 -m 3 30 -n GATA2
 
 -t -> File 
