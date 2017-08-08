@@ -14,9 +14,9 @@ cd $PBS_0_WORKDIR
 cd /home/roach89
 
 
-./bowtie-0.12.7/bowtie -t -k 2 -v 2 <reference genome> <input> -S <output name>
+./bowtie-0.12.7/bowtie -t -v 2 <reference genome> <input> -S <output name>
 #the -S is used to specify that the output will be a sam file, which is important
-
+#I had to take out the -k parameter, it was throwing a strange error where it writes out more reads than the actual file contains.
 
 
 " | qsub
