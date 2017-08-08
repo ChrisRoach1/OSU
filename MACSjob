@@ -5,6 +5,7 @@ used MACS2 for the analysis, macs 1.4 was not working as i wanted it to so i jus
 filterdup (not required but good to do) - macs2 filterdup -i GATA2v3.sam -f SAM -g hs -p 1e-8 -o <outputFile>
   #can also be done with picard (what i used instead)
 example of arguments used -> macs2 callpeak -t GATA2.uniq.bam -f BAM -g hs -p 1e-8 -m 3 30 -n GATA2
+#use bdgpeakcall instead of callpeak if you want a bedgraph file
 
 -t -> File 
 -f -> Format of the file
