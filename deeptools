@@ -1,6 +1,6 @@
 These are all examples from what i did in my analysis.
 
 bamCoverage     - bamCoverage -b sortedGATA2.bam -o GATA2.bw (important that the bam file is indexed - used samtools)
-computeMatrix   - computeMatrix reference-point -R GATA2_peaks.narrowPeak -S GATA2.bw --beforeRegionStartLength 3000 --afterRegionStartLength 3000 --binSize 50 -o <outputFile>
+computeMatrix   - computeMatrix reference-point -R refseq -S GATA2.bw --beforeRegionStartLength 3000 --afterRegionStartLength 3000 --binSize 50 -o <outputFile>
 plotProfile     - plotProfile -m GATA2matrix2000 -out GATA2profile2k.pdf
 plotHeatmap     - plotHeatmap -m GATA2matrix -o GATA2test.png
